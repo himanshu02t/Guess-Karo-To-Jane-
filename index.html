@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess Karo To Jane </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Guess Karo To Jane</h1>
+    <p class="instructions">Guess the word by typing letters. You have <span id="max-attempts">6</span> tries!</p>
+
+    <div class="word-display" id="wordDisplay"></div>
+    <div class="wrong-letters" id="wrongLetters">Wrong letters: </div>
+    <p class="message" id="message"></p>
+
+    <div class="info">
+      <p><strong>Tries Left:</strong> <span id="triesLeft">6</span></p>
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <p><strong>Time Left:</strong> <span id="timer">60</span> seconds</p>
+    </div>
+
+    <p id="hint"></p>
+    <button id="hintBtn">Show Hint</button>
+    <button id="restartBtn">Restart Game</button>
+  </div>
+
+  <audio id="winSound" src="https://www.myinstants.com/media/sounds/success-fanfare.mp3"></audio>
+  <audio id="loseSound" src="https://www.myinstants.com/media/sounds/fail-trombone.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

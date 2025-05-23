@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.word-display {
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin: 20px 0;
+}
+
+.wrong-letters {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+#hint {
+  font-style: italic;
+  color: #555;
+}
